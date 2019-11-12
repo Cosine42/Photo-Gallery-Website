@@ -1,0 +1,41 @@
+
+
+.car{
+    height: 30%;
+    width: 70%;
+}
+
+.welcome{
+    height: 400px;
+    width: 70%;
+    margin: 4px 4px;
+    background-color: blueviolet;
+    font-size: 42pt;
+    color: white;
+}
+
+.quote{
+    height: 440px;
+    width: 100%;
+    transform: translate(-100px,0);
+    margin: 4px 4px;
+    border: 10px solid goldenrod;
+    font-size: 42pt;
+    
+}
+
+#lol{
+    margin: 2% 5%;
+    height: 70%;
+    width: 90%;
+}
+
+#quote-text{
+    font-size: 18pt;
+    margin: 2% 5%;
+    height: 70%;
+    width: 90%;
+
+}
+
+

@@ -1,0 +1,28 @@
+#b{
+    border: 20px solid red;
+    background-image: url("lol.jpg");
+    height: 100%;
+    width: 100%;
+
+}
+
+#d{
+    border: 10px solid silver;
+    background-color: lightgoldenrodyellow;
+    height: 400px;
+    width: 400px;
+    color: darkred;
+    transform: translate(100%,50%);
+}
+
+#text{
+    font-size: 16pt;
+    font-family: fantasy, Arial, sans-serif;
+    height: 90%;
+    width: 90%;
+}
+
+#head{
+    font-family: fantasy, Arial, sans-serif;
+    color: black;
+}
