@@ -20,6 +20,10 @@
     font-family: fantasy, Arial, sans-serif;
     height: 90%;
     width: 90%;
+    padding: 10px;
+}
+#head{
+    padding: 10px;
 }
 
 #head{

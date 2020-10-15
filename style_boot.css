@@ -1,39 +1,51 @@
+body{
+    height:auto;
+    overflow-x:hidden;
+}
+*{
+    margin:0px;
+}
+.navbar{
+    width: 100%;
 
-
+}
 .car{
     height: 30%;
     width: 70%;
 }
-
 .welcome{
-    height: 400px;
+    height: auto;
     width: 70%;
     margin: 4px 4px;
     background-color: blueviolet;
     font-size: 42pt;
     color: white;
 }
+.welcome h2{
+    padding-left: 10px;
+}
+.welcome h4{
+    padding-left:10px ;
+}
 
 .quote{
-    height: 440px;
+    height: auto;
     width: 100%;
-    transform: translate(-100px,0);
     margin: 4px 4px;
     border: 10px solid goldenrod;
     font-size: 42pt;
-    
 }
 
 #lol{
     margin: 2% 5%;
-    height: 70%;
+    height: auto;
     width: 90%;
 }
 
 #quote-text{
     font-size: 18pt;
     margin: 2% 5%;
-    height: 70%;
+    height: auto;
     width: 90%;
 
 }
