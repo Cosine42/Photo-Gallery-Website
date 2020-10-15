@@ -1,12 +1,11 @@
 <html>
     <head>
       <link rel="stylesheet" href="style_boot.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"><link rel="stylesheet" type="text/css" href="style_boot.css">
     </head>
     <body>
-        <nav class="nav navbar-inverse">
+        <!--<nav class="nav navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">Photopia</a>
@@ -17,7 +16,22 @@
 
                 </ul>
             </div>
-        </nav>
+        </nav> -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+          <a class="navbar-brand" href="">Photopia</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="collapsibleNavbar">
+           <ul class="navbar-nav ml-auto">
+             <li class="nav-item" >
+              <a class="nav-link" href="index.html" style=" font-size: 1.2rem;">Home</a>
+             </li>
+             <li class="nav-item"  >
+               <a class="nav-link" href="about.html" style=" font-size: 1.2rem;">About</a>
+             </li>
+           </ul>
+         </nav>
         <div class="container" class="car">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
@@ -31,29 +45,34 @@
               
                 
                 <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="chicken-4474176_1920.jpg" alt="Chicken">
+                  <div class="carousel-item active">
+                    <img src="chicken-4474176_1920.jpg" class="d-block w-100" alt="Chicken">
                   </div>
               
-                  <div class="item">
-                    <img src="drop-3698073_1920.jpg" alt="Drop">
+                  <div class="carousel-item">
+                    <img src="drop-3698073_1920.jpg"  class="d-block w-100"alt="Drop">
                   </div>
               
-                  <div class="item">
-                    <img src="landscape-2470398_1920.jpg" alt="Landscape">
+                  <div class="carousel-item">
+                    <img src="landscape-2470398_1920.jpg"  class="d-block w-100"alt="Landscape">
                   </div>
 
-                  <div class="item">
-                    <img src="ladybug-796483_1920.jpg" alt="Lady Bug">
+                  <div class="carousel-item">
+                    <img src="ladybug-796483_1920.jpg"  class="d-block w-100"alt="Lady Bug">
                   </div>
 
-                  <div class="item">
-                    <img src="shells-792912_1920.jpg" alt="Shells">
+                  <div class="carousel-item">
+                    <img src="shells-792912_1920.jpg"  class="d-block w-100" alt="Shells">
                   </div>
-
+                  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
                 </div>
-              
-                
                 <a href="#myCarousel" class="left carousel-control" data-slide="prev">
                   <span class="glyphicon glyphicon-chevron-left"></span>
                   <span class="sr-only">Previous</span>
@@ -66,32 +85,29 @@
             </div>
             <div class="container-fluid">
               <div class="container">
-
               <div class="row">
-                <div class="col-sm-8">
+                <div class="col-lg-8 col-md-6">
                 <div class="welcome">
                     <h2>Welcome to Photopia</h2>
                     <h4>a demo photo gallery</h4>
                     <img src="lol.jpg" id="lol" alt="im">
-                    
                 </div>
                 
               </div>
-                <div class="col-sm-4">
+                <div class="col-lg-4 col-md-6">
                   <div class="quote">
                     <p id="quote-text">A photo can reveal more about a person than you might have thought.
                       Photography is more than just a moment captured by a camera. 
                       This is a special form of art with its own history and philosophy.
                       Here is a simple photo gallery with some beautiful photographs...
                     </p>
-
                   </div>
                 </div>
                </div>
-
               </div>
-            
             </div>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </body>
-
 </html>
